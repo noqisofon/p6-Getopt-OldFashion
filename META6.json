@@ -1,0 +1,30 @@
+{
+    "name": "Getopt::OldFashion",
+    "source-url": "git://github.com/noqisofon/p6-Getopt-OldFashion.git",
+    "version": "0.0.1",
+    "description": "old fashion getopt",
+    "authors": [
+        "Ned Rihine"
+    ],
+    "license": "Artistic-2.0",
+    "perl": "6.c",
+    "resources": [
+    ],
+    "depends": [
+    ],
+    "build-depends": [
+    ],
+    "test-depends": [
+        "Test::META"
+    ],
+    "tags": [
+        "getopt",
+        "unix",
+        "gnu",
+        "bsd"
+    ],
+    "provides": [
+        "Getopt::OldFashion": "lib/Getopt/OldFashion.pm6",
+        "Getopt::OldFashion::OptionSwitchGrammar": "lib/Getopt/OldFashion/OptionSwitchGrammar.pm6"
+    ]
+}

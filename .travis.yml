@@ -8,5 +8,5 @@ install:
   - rakudobrew build-zef
   - zef --debug --depsonly install .
 script:
-  - PERL6LIB=$PWD/lib prove -e perl6 -vr xt/
+  - PERL6LIB=$PWD/lib prove -e perl6 -vr t/
 sudo: false
